@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/project-management/static/css/main.09013b5c.css",
+    "main.js": "/project-management/static/js/main.3b5eeb38.js",
+    "static/js/453.ee8246c5.chunk.js": "/project-management/static/js/453.ee8246c5.chunk.js",
+    "static/media/mobileb.png": "/project-management/static/media/mobileb.cad3691f3952cccfcdfe.png",
+    "static/media/PROJECT-MANAGEMENT.jpg": "/project-management/static/media/PROJECT-MANAGEMENT.f90e7b3b4a2b38310517.jpg",
+    "static/media/CircularStd-Book.ttf": "/project-management/static/media/CircularStd-Book.56e46dd26062a08cfc7c.ttf",
+    "index.html": "/project-management/index.html",
+    "main.09013b5c.css.map": "/project-management/static/css/main.09013b5c.css.map",
+    "main.3b5eeb38.js.map": "/project-management/static/js/main.3b5eeb38.js.map",
+    "453.ee8246c5.chunk.js.map": "/project-management/static/js/453.ee8246c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09013b5c.css",
+    "static/js/main.3b5eeb38.js"
+  ]
+}
