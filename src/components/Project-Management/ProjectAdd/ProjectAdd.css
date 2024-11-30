@@ -1,0 +1,157 @@
+.project-add {
+    padding: 20px 40px;
+    /* background: #f4f6f9; */
+    background: #eef3fd;
+    height: 100vh;
+}
+
+.project-add .main-title h2 {
+    font-size: 28px;
+    color: #000;
+    font-family: "CircularStd", sans-serif !important;
+
+}
+
+.project-add .form-control {
+    font-size: 16px;
+    font-family: "CircularStd", sans-serif !important;
+}
+
+.project-add .form-control:focus {
+    box-shadow: unset;
+}
+
+.project-add .search-button {
+    width: 100%;
+    border: none;
+    background: #55CE63;
+    font-size: 16px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.project-add li.breadcrumb-item a {
+    font-size: 14px;
+    color: #000;
+}
+
+.project-add li.breadcrumb-item.active {
+    font-size: 14px;
+    color: #FF902F;
+    font-weight: 600;
+}
+
+.project-add .create-project-btn {
+    background: #FF902F;
+    color: #FFF;
+    font-size: 15px;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 50px;
+}
+
+
+
+/* Create Grid CSS */
+
+.create-project .white-bgggg {
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.create-project .white-bgggg .project-name {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.create-project .white-bgggg .project-txtt {
+    font-size: 14px;
+    color: #7A7C7F;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    font-weight: 500;
+}
+
+.create-project .progress {
+    --bs-progress-bar-bg: #55CE63;
+    height: 10px;
+}
+
+.create-project .black-project-txtt {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.create-project .client-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px -4px;
+}
+
+.create-project .member-count {
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 50%;
+    background: #000;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.create-project .plus-iconnjhg {
+    font-size: 12px;
+}
+
+.create-project .white-bgggg {
+    position: relative;
+}
+
+.create-project .white-bgggg .drop-down-bgg {
+    position: absolute;
+    top: 35px;
+    right: 5px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inherit;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 8px 20px 0px 10px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.create-project .ellips-img {
+    cursor: pointer;
+}
+
+.create-project .ellips-img:hover {
+    color: #FF902F;
+}
+
+.project-add .count-number {
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 50%;
+    background: #000;
+    padding: 4px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+
+.project-add .project-count-number {
+    font-size: 11px;
+    color: #000;
+    border-radius: 50%;
+    background: #ccc;
+    padding: 4px;
+    cursor: pointer;
+}

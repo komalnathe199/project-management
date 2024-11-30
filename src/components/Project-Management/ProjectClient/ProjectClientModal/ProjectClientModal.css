@@ -1,0 +1,68 @@
+.project-client-modal .form-control {
+    font-size: 14px;
+}
+
+.project-client-modal .form-control:focus {
+    box-shadow: unset;
+}
+
+.project-client-modal .form-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.project-client-modal .modal-title {
+    font-size: 25px;
+}
+
+.project-client-modal .submit-btn:hover {
+    color: #FFF;
+    background: #FF902F;
+    font-size: 16px;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 50px;
+}
+
+.project-client-modal .submit-btn {
+    color: #FF902F;
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid #FF902F;
+    padding: 5px 25px;
+    border-radius: 50px;
+}
+
+.project-client-modal .form-check-input:checked {
+    background-color: #FF902F;
+    border-color: #FF902F;
+}
+
+.project-client-modal .brown-border {
+    border-bottom: 1px solid #ccc;
+    margin: 2% 0;
+}
+
+.project-client-modal .tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    font-size: 14px;
+}
+
+.modal-backdrop.show {
+    opacity: 0.1 !important;
+}
+
+.go-to-project {
+    background: transparent;
+    font-size: 12px;
+    border: none;
+    color: #FF902F;
+    text-decoration: underline;
+}

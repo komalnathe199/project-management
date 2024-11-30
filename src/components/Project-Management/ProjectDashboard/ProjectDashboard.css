@@ -1,0 +1,82 @@
+.project-dashoboard {
+    padding: 20px 40px;
+    /* background: #f4f6f9; */
+    background: #eef3fd;
+    height: auto;
+}
+
+.project-dashoboard .first-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF902F;
+}
+
+.project-dashoboard .title p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.project-dashoboard .dashboard-bucket .white-bggg {
+    background: #FFF;
+    /* position: relative; */
+    border-radius: 10px;
+    padding: 10px 15px;
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+.project-dashoboard .dashboard-bucket .bucket-txtt {
+    color: #5a5278;
+    font-size: 17px;
+}
+
+.project-dashoboard .dashboard-bucket .count {
+    /* position: absolute; */
+    /* background: #FF902F; */
+    color: #5a5278;
+    /* padding: 5px 10px; */
+    font-size: 28px;
+    left: 0;
+    top: 15px;
+    font-weight: 700;
+}
+
+.project-dashoboard .white-bgggggg {
+    background: #FFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+@media(min-width:0px) and (max-width:768px) {
+    .project-dashoboard .dashboard-bucket .bucket-txtt {
+        font-size: 15px;
+    }
+
+    .project-dashoboard .dashboard-bucket .count {
+        font-size: 23px;
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+    .project-dashoboard .dashboard-bucket .bucket-txtt {
+        font-size: 15px;
+    }
+
+    .project-dashoboard .dashboard-bucket .count {
+        font-size: 23px;
+    }
+}
+
+@media(min-width:1025px) and (max-width:1440px) {
+    .project-dashoboard .dashboard-bucket .bucket-txtt {
+        font-size: 14px;
+    }
+
+    .project-dashoboard .dashboard-bucket .count {
+        font-size: 25px;
+    }
+}
+
+

@@ -1,0 +1,166 @@
+.project-header {
+    /* background: #FF902F; */
+    background: linear-gradient(to right, #FF902F 0%, #fc6075 100%);
+    box-shadow: 0px 3px 19px #0000001A;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+}
+
+.project-header .user-img {
+    height: 34px;
+    width: 34px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.project-header .next-btn-class {
+    background: #FFF;
+    border: none;
+    padding: 5px 8px 5px 8px;
+    color: #000;
+    border-radius: 5px;
+}
+
+.project-header .next-btn-class:hover {
+    border: none;
+}
+
+.project-header .header-text {
+    font-size: 10px;
+    color: #FFF;
+}
+
+.project-header .notification-main {
+    position: relative;
+    cursor: pointer;
+}
+
+.project-header .number-bg {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.project-header .notification-number {
+    background-color: #F42B2D;
+    color: #FFF;
+    font-size: 8px;
+    padding: 1px 4px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.project-header .notification-icon {
+    color: #FFF;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* .project-header .user-image {
+    border-left: 1px solid #B1B1B1;
+} */
+
+.project-header .header-text span {
+    font-size: 15px;
+    color: #FFF;
+}
+
+.project-header .input-group-text {
+    color: #B9B9B9;
+    text-align: center;
+    white-space: nowrap;
+    /* background-color: transparent; */
+    border-radius: 50;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+}
+
+.project-header .input-group {
+    box-shadow: 0px 3px 19px #0000001A;
+    border-radius: 50px;
+}
+
+.project-header .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+}
+
+.project-header .accordion .accordion-button::after {
+    background-image: none !important;
+}
+
+.project-header .accordion-button::after {
+    background-image: none !important;
+    width: 0px;
+    height: 0px;
+}
+
+.project-header .form-control {
+    font-size: 12px !important;
+    color: #A4A4A4;
+    font-weight: 300;
+    box-shadow: none;
+}
+
+.project-header .form-control:focus {
+    font-size: 12px !important;
+    color: #A4A4A4;
+    font-weight: 300;
+    box-shadow: none;
+}
+
+.project-header .bar-iconnn {
+    font-size: 25px;
+    color: #FFF;
+    margin-top: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.project-header .navbar {
+    padding: 0px;
+}
+
+.mobile-viewbtnnnn {
+    display: none;
+}
+
+
+.menuuu-offcanvas {
+    top: 85px;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 17px #00000026;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
+
+
+@media(min-width:0px) and (max-width:576px) {
+    .mobile-viewbtnnnn {
+            display: block;
+        }
+    
+        .project-header .bar-iconnn {
+            display: none;
+        }
+    .project-header .input-group {
+        display: none;
+    }
+}
+
+
+@media(min-width:577px) and (max-width:991px) {
+    .mobile-viewbtnnnn {
+        display: block;
+    }
+
+    .project-header .bar-iconnn {
+        display: none;
+    }
+
+}

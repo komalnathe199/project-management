@@ -1,0 +1,284 @@
+.project-sidebar {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #212529;
+    height: 100%;
+}
+
+
+.project-sidebar .project-title {
+    color: #FFF;
+    font-weight: 700;
+    padding: 8px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.project-sidebar .brown-border {
+    border-bottom: 1px solid #FFF;
+}
+
+.project-sidebar .accordion-button:not(.collapsed) {
+    color: #FFF;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.project-sidebar .accordion-button {
+    color: #ccc;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* hover */
+.project-sidebar:hover .afterclicking {
+    display: block;
+}
+
+
+.project-sidebar .accordion-button:hover {
+    color: #FFF;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project-sidebar .accordion-body p {
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.project-sidebar .accordion-body span {
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.project-sidebar .accordion-button:focus {
+    box-shadow: none;
+}
+
+.project-sidebar .accordion-item {
+    background-color: transparent;
+    border: none;
+}
+
+.project-sidebar .mainsidebarclose .accordion-button::after {
+    display: block;
+}
+
+.project-sidebar .mainsidebaropen .accordion-button::after {
+    display: none;
+}
+
+.project-sidebar .mainsidebaropen .accordion-button {
+    padding-left: 50px;
+}
+
+/* hover */
+.project-sidebar:hover .mainsidebaropen .accordion-button {
+    padding-left: 20px;
+}
+
+.maintitleopen .project-title {
+    font-size: 20px;
+}
+
+.project-sidebar .acoor-dummy .accordion-button:not(.collapsed)::after {
+    display: none;
+}
+
+.project-sidebar .acoor-dummy .accordion-button::after {
+    display: none;
+}
+
+
+.project-sidebar .accordion-button:not(.collapsed)::after {
+    background: url("../../../../public/assets/Image/logo/arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    transform: rotate(-360deg);
+}
+
+.project-sidebar .accordion-button::after {
+    background-image: url("../../../../public/assets/Image/logo/arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    transform: rotate(-90deg);
+}
+
+.project-sidebar ul li {
+    color: #FFF;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.project-sidebar ul li:hover {
+    color: orange;
+}
+
+
+.project-sidebar .bars {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.project-sidebar .beforeCLicking {
+    display: block;
+}
+
+.project-sidebar .afterclicking {
+    display: none;
+}
+
+.project-sidebar .accordion-body {
+    padding: 5px;
+}
+
+.project-sidebar img.logo-img {
+    width: 93px;
+    background: white;
+}
+
+.project-sidebar .sub-accor .acooordummy-2 .accordion-button {
+    color: #FFF;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.project-sidebar .sub-accor .acooordummy-2 .accordion-button:hover {
+    color: orange;
+}
+
+.project-sidebar .sub-accor .acooordummy-2  .accordion-button:not(.collapsed) {
+    color: orange;
+}
+
+
+/* Styles.css or equivalent */
+
+.sidebar {
+    transition: width 0.3s;
+}
+
+.sidebar-closed {
+    width: 10%;
+}
+
+.sidebar-open {
+    width: 7%;
+}
+
+.sidebar-open:hover {
+    width: 10%;
+}
+
+.content {
+    transition: width 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-full {
+    width: 100%;
+}
+
+.content-closed {
+    width: 100%;
+}
+
+.content-open {
+    width: 100%;
+}
+
+@media(min-width:0px) and (max-width:768px) {
+    .project-sidebar .project-title {
+        font-size: 21px;
+    }
+
+    .project-sidebar .accordion-button {
+        font-size: 14px;
+    }
+
+    .project-sidebar .accordion-button:hover {
+        font-size: 14px;
+    }
+
+    .project-sidebar .accordion-button:not(.collapsed) {
+        font-size: 15px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media(min-width:769px) and (max-width:991px) {
+    .project-sidebar .project-title {
+        font-size: 21px;
+    }
+
+    .project-sidebar .accordion-button {
+        font-size: 14px;
+    }
+
+    .project-sidebar .accordion-button:hover {
+        font-size: 14px;
+    }
+
+    .project-sidebar .accordion-button:not(.collapsed) {
+        font-size: 15px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+
+@media(min-width:992px) and (max-width:1200px) {
+    .sidebar-closed {
+        width: 20%;
+    }
+
+    .sidebar-open {
+        width: 13%;
+    }
+
+    .sidebar-open:hover {
+        width: 16%;
+    }
+}
+
+@media(min-width:1201px) and (max-width:1440px) {
+    .sidebar-closed {
+        width: 14%;
+    }
+
+    .sidebar-open {
+        width: 10%;
+    }
+}
+
+
+@media(min-width:2200px) and (max-width:2560px) {
+    .sidebar-open {
+        width: 4%;
+    }
+
+    .project-sidebar .mainsidebaropen .accordion-button {
+        padding-left: 34px;
+    }
+}

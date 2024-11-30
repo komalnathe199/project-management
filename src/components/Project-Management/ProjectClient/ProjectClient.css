@@ -1,0 +1,94 @@
+.project-add .white-bggg {
+    background-color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #E9E9EA;
+    padding: 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-add .white-bggg .client-img {
+    border-radius: 50%;
+    height: 95px;
+    width: 95px;
+}
+
+.project-add .white-bggg .drop-down-bgg {
+    position: absolute;
+    top: 28px;
+    right: 5px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inherit;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 8px 20px 0px 10px;
+    text-align: start;
+}
+
+.project-add .white-bggg .message-btn {
+    background-color: #FFF;
+    border: 1px solid #D3D3D4;
+    color: #373B3E;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+.project-add .white-bggg .company-name {
+    font-size: 18px;
+    color: #373B3E;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.project-add .white-bggg .client-name {
+    font-size: 14px;
+    color: #373B3E;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.project-add .white-bggg .client-designation {
+    font-size: 14px;
+    color: #373B3E;
+    cursor: pointer;
+}
+
+.project-add .white-bggg .ellips-img {
+    cursor: pointer;
+}
+
+.project-add .white-bggg .ellips-img:hover {
+    color: #FF902F;
+}
+
+.project-add .nav-pills .nav-link {
+    color: #000;
+    background: #FFF;
+    box-shadow: 0px 3px 6px #ccc;
+    margin: 5px;
+}
+
+.project-add .nav-pills .nav-link.active {
+    color: #FFF;
+    background: #FF902F;
+}
+
+
+.datatable {
+    background: #FFF;
+    border: 1px solid #E9E9EA;
+    padding: 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}

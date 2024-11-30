@@ -1,0 +1,41 @@
+.project-client-modal .usernameeee {
+    font-size: 12px;
+    background: #9e3939;
+    color: #FFF;
+    border-radius: 50%;
+    padding: 6px 7px;
+}
+
+.project-client-modal .user-txtttt {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.project-client-modal .date-classs {
+    font-size: 13px;
+    margin-top: 8px;
+    color: #000;
+    font-weight: 600;
+}
+
+.project-client-modal .titlte-modal {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.project-client-modal .accordion-button:not(.collapsed) {
+    background-color: #FFF;
+}
+
+.project-client-modal .user-txtttt-bold {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.project-client-modal .accordion-button {
+    font-size: 15px;
+    font-weight: 600;
+}
+
